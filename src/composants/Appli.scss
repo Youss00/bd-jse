@@ -1,0 +1,11 @@
+.Appli {
+background-color: rgb(47, 38, 42);
+min-height: 100vh;
+    .comic {
+        display: flex;
+        
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 1rem;
+    }
+}

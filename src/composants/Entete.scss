@@ -1,0 +1,43 @@
+.Entete {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: rgb(90,221,83);
+background: linear-gradient(0deg, rgb(221, 83, 152) 0%, rgb(171, 38, 98) 100%);
+    
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
+    h1 {
+        padding-left: 3rem;
+    }
+    .deconnexion{
+        cursor: pointer;
+        padding-right: 1.5rem;
+    }
+
+    .avatar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        
+    }
+    .avatar button {
+        background: rgba(255, 255, 255, 0.267);
+        border: 1px solid white;
+        border-radius: 10px;
+        color: white;
+        font-size: 1rem;
+        font-weight: bold;
+        cursor: pointer;
+        padding: 1rem;
+    }
+    .avatar button:hover {
+        background: rgba(255, 255, 255, 0.611);
+        color: rgb(225, 53, 145);
+    }
+}
