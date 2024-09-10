@@ -4,7 +4,7 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import IconButton from '@mui/material/IconButton';
 import Snackbar from '@mui/material/Snackbar';
 import { observeLikes } from '../code/bandes-model';
-import { toggleLike } from '../code/like-model';
+import { toggleLike } from '../code/likes-model';
 
 function Like({ initialLike = [], setLike, utilisateur, comicId }) {
     const [openSnackbar, setOpenSnackbar] = useState(false);
