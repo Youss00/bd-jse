@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Stack from '@mui/material/Stack';
 import Commentaire from './Commentaire';
 import Snackbar from '@mui/material/Snackbar';
+import SendIcon from '@mui/icons-material/Send';
 
 function ListeCommentaire({ commentaires, nbCommentaire, ajouterCommentaire, util }) {
     const [nouveauCommentaire, setNouveauCommentaire] = useState("");
@@ -50,11 +51,11 @@ function ListeCommentaire({ commentaires, nbCommentaire, ajouterCommentaire, uti
                         value={nouveauCommentaire}
                         onChange={e => setNouveauCommentaire(e.target.value)}
                     />
-                    <button type="submit">Envoi</button>
+                    <button type="submit"><SendIcon/></button>
                 </form>
             </div>
 
-            <Stack direction="column" spacing={3}>
+            <Stack direction="column" spacing={3} marginTop={4}>
                 {commentaires.map((commentaire, index) => (
                     <Commentaire key={index} commentaire={commentaire} util={util}/>
                 ))}

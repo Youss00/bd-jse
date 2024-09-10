@@ -85,13 +85,13 @@ useEffect(() => {
       <Comic bandesImg={bandesImg} img={img} motCle={motCle} index={index}
         setIndex={setIndex} commentaires={commentaires}
         like={like} setLike={setLike} ajouterCommentaire={ajouterCommentaire} date={date} util={utilisateur} />
-      <Snackbar
+      {/* <Snackbar
         anchorOrigin={{ vertical: 'top', horizontal: 'center' }}
         open={openSnackbar}
         autoHideDuration={3000}
         onClose={handleCloseSnackbar}
         message={snackbarMessage}
-      />
+      /> */}
     </div>
   )
 }
