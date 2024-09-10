@@ -32,9 +32,22 @@ button:hover{
     align-items: center;
 
 }
+.controle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.infoB{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+}
 
 .comicImg {
-    width: 70%;
+    width: 80%;
     height: auto;
     margin: 0 3rem;
    border: 0.5rem solid #cec8c8;
@@ -48,6 +61,13 @@ button:hover{
     .comics {
         width: 100%;
         
+    }
+    .infoB{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+    
     }
     .comicImg {
         width: 90%;

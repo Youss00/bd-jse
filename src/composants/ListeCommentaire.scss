@@ -1,5 +1,4 @@
 .ListeCommentaire {
-  width: 30%;
   height: 65vh;
   margin: 1rem;
   padding: 1.5rem;
@@ -20,14 +19,13 @@
 
   form {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       margin-top: 1rem;
 
       input {
           padding: 0.5rem;
           border: 1px solid #ccc;
           border-radius: 5px;
-          margin-bottom: 1rem;
           font-size: 1rem;
       }
 
